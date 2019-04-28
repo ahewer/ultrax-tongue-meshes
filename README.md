@@ -6,15 +6,15 @@ This repository contains some registered and reconstructed tongue meshes that we
 
 ## Components
 
-This repository provides you with the following files:
+The assets of this repository provide you with the following files:
 
-- sampleDatabase.yaml : This is a [sample database][4] ready to be used with the [model-builder][3] tool to derive a multilinear tongue model from the registered meshes.
+- tongue_training.yaml : This is a [sample database][4] ready to be used with the [model-builder][3] tool to derive a multilinear tongue model from the registered meshes.
 - meshes : This folder contains the registered and reconstructed meshes.
 
 ## Notes for deriving the model
 
 The sample database contains relative paths of the meshes.
-Thus, you should call **model-builder** from the same folder as **sampleDatabase.yaml**.
+Thus, you should call **model-builder** from the same folder as **tongue_training.yaml**.
 
 ## License
 
